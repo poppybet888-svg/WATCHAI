@@ -78,7 +78,40 @@ body {
 
     padding: 20px;
 }
+.spin-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 
+    padding: 14px 35px;
+
+    border-radius: 12px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f8d675,
+            #c99a2e,
+            #f8d675
+        );
+
+    color: #111;
+
+    text-decoration: none;
+
+    font-weight: 800;
+
+    box-shadow:
+        0 4px 15px rgba(212, 166, 55, .25);
+}
+
+.gold-icon {
+    font-size: 22px;
+    color: #fff3b0;
+    text-shadow:
+        0 0 6px rgba(255, 215, 100, .8);
+}
 .wrap {
 
     width: 100%;
@@ -329,12 +362,13 @@ body {
                 จำนวนครั้งที่สามารถหมุนได้
             </p>
 
-            <a
+             <a
                 class="spin-button"
-                href="#"
+                href="wheel.php"
             >
+                <span class="gold-icon">✦</span>
                 หมุนวงล้อ
-            </a>
+            </a>>
 
         </div>
 
