@@ -13,7 +13,7 @@ $username = 'if0_42681514';
 /*
  * ใส่ MySQL Password ของ InfinityFree ตรงนี้
  */
-$password = 'ChangeMe!2026';
+$password = 'PB12B245ss';
 
 try {
 
